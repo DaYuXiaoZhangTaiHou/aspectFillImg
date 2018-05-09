@@ -1,0 +1,5 @@
+<!--pages/canvasDemo/canvas.wxml-->
+<view>
+  <canvas class='canvas' hidden='{{isHidden}}' style='width:{{windowX*2}}rpx;height:{{windowY*2}}rpx;' canvas-id='mycanvas'></canvas>
+  <!-- <image src='{{canvasImg}}'></image > -->
+</view>
